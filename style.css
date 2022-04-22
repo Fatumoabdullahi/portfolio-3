@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  position: relative;
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
