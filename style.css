@@ -50,7 +50,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url("portfolio.3.png") no-repeat center center/cover;
+  background: url("./images/portfolio.3.png") no-repeat center center/cover;
   height: 700px;
   width: 100%;
   z-index: -1;
@@ -67,7 +67,10 @@
 #portfolio {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #000000dc;
+}
+#portfolio h1 {
+  margin: 60px;
 }
 .gallery {
   display: flex;
@@ -75,7 +78,7 @@
   flex-wrap: wrap;
 }
 .gallery img {
-  width: 360px;
+  width: 500px;
   height: 640px;
   padding: 10px;
   margin: 10px;
@@ -84,3 +87,5 @@
   background-color: white;
   cursor: pointer;
 }
+
+/* education section */
