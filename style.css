@@ -50,7 +50,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url("./images/portfolio.3.png") no-repeat center center/cover;
+  background: url("./images/port.3.png") no-repeat center center/cover;
   height: 700px;
   width: 100%;
   z-index: -1;
@@ -89,3 +89,52 @@
 }
 
 /* education section */
+#education {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000dc;
+}
+#education h1 {
+  margin: 60px;
+}
+.columns {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 50px;
+}
+.box {
+  height: 200px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+.box h2 {
+  color: yellowgreen;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.box p {
+  color: white;
+  font-size: 1.1rem;
+}
+/*about */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+#about h1 {
+  color: black;
+  margin: 55px;
+}
+.about {
+  display: flex;
+}
+.about img {
+  width: 500px;
+  height: 400px;
+  padding: 0px 30px;
+}
